@@ -1,7 +1,7 @@
 name: Python Workflow
 on: [push]
 jobs:
-    run-Python:
+    run-python:
       runs-on: ubuntu-latest
       steps:
        - name : Checkout code
@@ -11,4 +11,4 @@ jobs:
          with:
             python-version: '3.11'
        - name: Run Python Script
-         run: Pyhon main.py
+         run: python main.py
